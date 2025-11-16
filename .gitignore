@@ -1,0 +1,97 @@
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+#      Qt & Qt Creator
+
+
+# Qt Creator user files
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# Auto-generated Qt files (never commit these)
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# Qt cache files
+.qmlc
+.jsc
+
+
+#     CMake build files
+
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+
+#       IDE folders
+
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+
+
+#     Build directories
+
+
+/build/
+/build-*/
+
+
+#   OS-specific junk files
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+
+#  Application data files
+
+
+data/events.csv
+data/events.html
