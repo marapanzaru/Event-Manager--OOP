@@ -1,5 +1,5 @@
 # Life After School — Event Manager
-A C++ & Qt application for managing and organizing events happening after school.  
+A C++ & Qt application for managing and organizing events.  
 Built with a layered architecture, file persistence, custom undo/redo logic, and a complete Qt GUI.
 
 ---
@@ -44,26 +44,26 @@ The program supports:
 ##  Graphical User Interface (Qt)
 The application includes a modern, functional GUI created using Qt:
 
-- Built using **layouts** (no Qt Designer required for the base layout)
+- Built using layouts 
 - Admin and User windows
 - Dynamic tables populated from files
 - Dialogs and message boxes for interactions
 - Separate Watchlist window using a `QAbstractTableModel`
 - Undo/Redo buttons
 - Keyboard shortcuts (`Ctrl+Z`, `Ctrl+Y`)
-- Automatic opening of external links
+- Opening of external links
 
 ---
 
 ##  Architecture
 The project follows a structured, layered architecture:
-- domain/ → Entities (Event), Validators
-- repository/ → Event repository using file storage
-- service/ → Business logic, filtering, undo/redo
-- gui/ → All Qt windows and interface logic
-- models/ → QAbstractTableModel implementation
-- infrastructure/ → CSV + HTML exporting logic
-- data/ → Input text file with events
+- domain → Entities (Event), Validators
+- repository → Event repository using file storage
+- service → Business logic, filtering, undo/redo
+- gui → All Qt windows and interface logic
+- models → QAbstractTableModel implementation
+- infrastructure → CSV + HTML exporting logic
+- data → Input text file with events
 
 ---
 ##  File Persistence
