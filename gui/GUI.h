@@ -107,8 +107,7 @@ public:
     void populateMyEventsList();
     void showEventDetails(const Event& event);
     void connectSignalsAndSlots();
-    ///void updateMyEventDetailsDisplay();
-
+   
 
     void openWatchListWindow();
     void loadFilteredEvents();
