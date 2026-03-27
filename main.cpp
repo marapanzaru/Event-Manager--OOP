@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
 
-    EventRepository repo(R"(C:\Users\Gica11\CLionProjects\Event-manager-OOP\data\event.txt)");
+    EventRepository repo("event.txt");
 
     EventValidator validator;
 
